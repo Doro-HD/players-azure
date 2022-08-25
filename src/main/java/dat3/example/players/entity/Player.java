@@ -12,23 +12,23 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private String player;
+    private String name;
 
     public Player() {}
 
     public Player(String player) {
-        this.player = player;
+        this.name = player;
     }
 
     public int getId() {
         return id;
     }
 
-    public String getPlayer() {
-        return player;
+    public String getName() {
+        return name;
     }
 
-    public void setPlayer(String player) {
-        this.player = player;
+    public void setName(String player) {
+        this.name = player;
     }
 }
