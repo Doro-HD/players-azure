@@ -12,7 +12,7 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private String na
+    private String name;
 
     public Player() {}
 
